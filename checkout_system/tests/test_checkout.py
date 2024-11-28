@@ -7,7 +7,7 @@ from checkout.rules.individual import IndividualPricingRule
 
 @pytest.fixture
 def setup_checkout():
-    """Fixture to provide a Checkout instance with preset products and rules."""
+    # Fixture to provide a product catalog instance with preset products and rules.
     catalog = ProductCatalog()
     product_a = Product("A", 50)
     product_b = Product("B", 30)
